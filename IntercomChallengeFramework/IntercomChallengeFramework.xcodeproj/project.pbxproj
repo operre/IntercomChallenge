@@ -25,6 +25,8 @@
 		7819DD8021E79573003F77E2 /* ApplicationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD7F21E79573003F77E2 /* ApplicationBuilder.swift */; };
 		7819DD8221E7989F003F77E2 /* ApplicationFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD8121E7989F003F77E2 /* ApplicationFacade.swift */; };
 		7819DD8421E79D36003F77E2 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD8321E79D36003F77E2 /* Configuration.swift */; };
+		7819DD8A21E7AA80003F77E2 /* FileReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD8921E7AA80003F77E2 /* FileReaderTests.swift */; };
+		7819DD9221E7BF75003F77E2 /* FileManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD9121E7BF75003F77E2 /* FileManagerMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		7819DD7F21E79573003F77E2 /* ApplicationBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationBuilder.swift; sourceTree = "<group>"; };
 		7819DD8121E7989F003F77E2 /* ApplicationFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFacade.swift; sourceTree = "<group>"; };
 		7819DD8321E79D36003F77E2 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		7819DD8921E7AA80003F77E2 /* FileReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReaderTests.swift; sourceTree = "<group>"; };
+		7819DD9121E7BF75003F77E2 /* FileManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 		7819DD5021E76E1E003F77E2 /* IntercomChallengeFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
+				7819DD8521E7AA21003F77E2 /* Core */,
 				7819DD5121E76E1E003F77E2 /* IntercomChallengeFrameworkTests.swift */,
 				7819DD5321E76E1E003F77E2 /* Info.plist */,
 			);
@@ -177,6 +182,31 @@
 				7819DD7D21E79178003F77E2 /* Localizable.swift */,
 			);
 			path = DistanceCalculation;
+			sourceTree = "<group>";
+		};
+		7819DD8521E7AA21003F77E2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7819DD8621E7AA2A003F77E2 /* FileReader */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7819DD8621E7AA2A003F77E2 /* FileReader */ = {
+			isa = PBXGroup;
+			children = (
+				7819DD9021E7BF65003F77E2 /* Mocks */,
+				7819DD8921E7AA80003F77E2 /* FileReaderTests.swift */,
+			);
+			path = FileReader;
+			sourceTree = "<group>";
+		};
+		7819DD9021E7BF65003F77E2 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				7819DD9121E7BF75003F77E2 /* FileManagerMock.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,7 +340,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7819DD8A21E7AA80003F77E2 /* FileReaderTests.swift in Sources */,
 				7819DD5221E76E1E003F77E2 /* IntercomChallengeFrameworkTests.swift in Sources */,
+				7819DD9221E7BF75003F77E2 /* FileManagerMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
