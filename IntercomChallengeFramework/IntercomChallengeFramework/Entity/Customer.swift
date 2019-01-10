@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Customer {
+struct Customer: Localizable {
     let userID: Int
     let name: String
     var location: Location
