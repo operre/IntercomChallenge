@@ -8,9 +8,14 @@
 
 import Foundation
 
-struct Location: Decodable {
-    let latitude: Double
-    let longitude: Double
+public struct Location: Decodable {
+    var latitude: Double
+    var longitude: Double
+    
+    public init(latitude: Double, longitude: Double) {
+        self.latitude = latitude
+        self.longitude = longitude
+    }
     
     func toRadians() -> Location {
         let latitude = Measurement(value: self.latitude, unit: UnitAngle.degrees).converted(to: .radians).value
