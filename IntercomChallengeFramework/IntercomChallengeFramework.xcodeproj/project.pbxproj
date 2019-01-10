@@ -20,6 +20,8 @@
 		7819DD7521E788BE003F77E2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD7421E788BE003F77E2 /* Location.swift */; };
 		7819DD7721E78928003F77E2 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD7621E78928003F77E2 /* Customer.swift */; };
 		7819DD7A21E790CA003F77E2 /* DistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD7921E790CA003F77E2 /* DistanceCalculator.swift */; };
+		7819DD7C21E79140003F77E2 /* DistanceValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD7B21E79140003F77E2 /* DistanceValidator.swift */; };
+		7819DD7E21E79178003F77E2 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD7D21E79178003F77E2 /* Localizable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7819DD7421E788BE003F77E2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		7819DD7621E78928003F77E2 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		7819DD7921E790CA003F77E2 /* DistanceCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceCalculator.swift; sourceTree = "<group>"; };
+		7819DD7B21E79140003F77E2 /* DistanceValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceValidator.swift; sourceTree = "<group>"; };
+		7819DD7D21E79178003F77E2 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				7819DD7921E790CA003F77E2 /* DistanceCalculator.swift */,
+				7819DD7B21E79140003F77E2 /* DistanceValidator.swift */,
+				7819DD7D21E79178003F77E2 /* Localizable.swift */,
 			);
 			path = DistanceCalculation;
 			sourceTree = "<group>";
@@ -274,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7819DD7A21E790CA003F77E2 /* DistanceCalculator.swift in Sources */,
+				7819DD7C21E79140003F77E2 /* DistanceValidator.swift in Sources */,
 				7819DD6621E77399003F77E2 /* FileReaderService.swift in Sources */,
 				7819DD6421E77340003F77E2 /* ReadError.swift in Sources */,
 				7819DD7521E788BE003F77E2 /* Location.swift in Sources */,
@@ -282,6 +289,7 @@
 				7819DD7221E7809C003F77E2 /* Result.swift in Sources */,
 				7819DD7721E78928003F77E2 /* Customer.swift in Sources */,
 				7819DD6B21E77969003F77E2 /* FileJSONParser.swift in Sources */,
+				7819DD7E21E79178003F77E2 /* Localizable.swift in Sources */,
 				7819DD6921E77793003F77E2 /* ParseError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
