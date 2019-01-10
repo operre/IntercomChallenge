@@ -17,6 +17,7 @@
 		7819DD6E21E77F57003F77E2 /* DownloadError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD6D21E77F57003F77E2 /* DownloadError.swift */; };
 		7819DD7021E78007003F77E2 /* FileDownloaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD6F21E78007003F77E2 /* FileDownloaderService.swift */; };
 		7819DD7221E7809C003F77E2 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD7121E7809C003F77E2 /* Result.swift */; };
+		7819DD7521E788BE003F77E2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD7421E788BE003F77E2 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		7819DD6D21E77F57003F77E2 /* DownloadError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadError.swift; sourceTree = "<group>"; };
 		7819DD6F21E78007003F77E2 /* FileDownloaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDownloaderService.swift; sourceTree = "<group>"; };
 		7819DD7121E7809C003F77E2 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		7819DD7421E788BE003F77E2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		7819DD4521E76E1D003F77E2 /* IntercomChallengeFramework */ = {
 			isa = PBXGroup;
 			children = (
+				7819DD7321E78717003F77E2 /* Entity */,
 				7819DD5F21E77256003F77E2 /* Core */,
 				7819DD4621E76E1D003F77E2 /* IntercomChallengeFramework.h */,
 				7819DD4721E76E1D003F77E2 /* Info.plist */,
@@ -137,6 +140,14 @@
 				7819DD6D21E77F57003F77E2 /* DownloadError.swift */,
 			);
 			path = FileDownloader;
+			sourceTree = "<group>";
+		};
+		7819DD7321E78717003F77E2 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				7819DD7421E788BE003F77E2 /* Location.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +261,7 @@
 			files = (
 				7819DD6621E77399003F77E2 /* FileReaderService.swift in Sources */,
 				7819DD6421E77340003F77E2 /* ReadError.swift in Sources */,
+				7819DD7521E788BE003F77E2 /* Location.swift in Sources */,
 				7819DD7021E78007003F77E2 /* FileDownloaderService.swift in Sources */,
 				7819DD6E21E77F57003F77E2 /* DownloadError.swift in Sources */,
 				7819DD7221E7809C003F77E2 /* Result.swift in Sources */,
