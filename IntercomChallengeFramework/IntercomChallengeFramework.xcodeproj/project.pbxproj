@@ -28,6 +28,9 @@
 		7819DD8A21E7AA80003F77E2 /* FileReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD8921E7AA80003F77E2 /* FileReaderTests.swift */; };
 		7819DD9221E7BF75003F77E2 /* FileManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD9121E7BF75003F77E2 /* FileManagerMock.swift */; };
 		7819DD9521E7C783003F77E2 /* DistanceCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD9421E7C783003F77E2 /* DistanceCalculatorTests.swift */; };
+		7819DD9721E7CE49003F77E2 /* DistanceValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD9621E7CE49003F77E2 /* DistanceValidatorTests.swift */; };
+		7819DD9A21E7DBDF003F77E2 /* DistanceCalculatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD9921E7DBDF003F77E2 /* DistanceCalculatorMock.swift */; };
+		7819DD9C21E7DC33003F77E2 /* AnyLocalizableEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD9B21E7DC33003F77E2 /* AnyLocalizableEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		7819DD8921E7AA80003F77E2 /* FileReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReaderTests.swift; sourceTree = "<group>"; };
 		7819DD9121E7BF75003F77E2 /* FileManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerMock.swift; sourceTree = "<group>"; };
 		7819DD9421E7C783003F77E2 /* DistanceCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceCalculatorTests.swift; sourceTree = "<group>"; };
+		7819DD9621E7CE49003F77E2 /* DistanceValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceValidatorTests.swift; sourceTree = "<group>"; };
+		7819DD9921E7DBDF003F77E2 /* DistanceCalculatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceCalculatorMock.swift; sourceTree = "<group>"; };
+		7819DD9B21E7DC33003F77E2 /* AnyLocalizableEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLocalizableEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,9 +221,20 @@
 		7819DD9321E7C74C003F77E2 /* DistanceCalculation */ = {
 			isa = PBXGroup;
 			children = (
+				7819DD9821E7DBCE003F77E2 /* Mocks */,
 				7819DD9421E7C783003F77E2 /* DistanceCalculatorTests.swift */,
+				7819DD9621E7CE49003F77E2 /* DistanceValidatorTests.swift */,
 			);
 			path = DistanceCalculation;
+			sourceTree = "<group>";
+		};
+		7819DD9821E7DBCE003F77E2 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				7819DD9921E7DBDF003F77E2 /* DistanceCalculatorMock.swift */,
+				7819DD9B21E7DC33003F77E2 /* AnyLocalizableEntity.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,7 +368,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7819DD9A21E7DBDF003F77E2 /* DistanceCalculatorMock.swift in Sources */,
 				7819DD9521E7C783003F77E2 /* DistanceCalculatorTests.swift in Sources */,
+				7819DD9C21E7DC33003F77E2 /* AnyLocalizableEntity.swift in Sources */,
+				7819DD9721E7CE49003F77E2 /* DistanceValidatorTests.swift in Sources */,
 				7819DD8A21E7AA80003F77E2 /* FileReaderTests.swift in Sources */,
 				7819DD5221E76E1E003F77E2 /* IntercomChallengeFrameworkTests.swift in Sources */,
 				7819DD9221E7BF75003F77E2 /* FileManagerMock.swift in Sources */,
