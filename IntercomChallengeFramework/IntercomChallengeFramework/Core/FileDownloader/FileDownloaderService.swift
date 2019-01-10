@@ -34,7 +34,7 @@ struct FileDownloaderService: FileDownloaderServiceProtocol {
         let request = URLRequest(url: url)
         let dataTask = self.session.downloadTask(with: request) { (localURL, _, error) in
             guard error == nil else {
-                handler(.error(error))
+                handler(.error(error!))
                 return
             }
             
@@ -51,7 +51,7 @@ struct FileDownloaderService: FileDownloaderServiceProtocol {
                     return
                 }
                 
-                // TODO: Should check empty line?
+                // TODO: Should check empty file?
                 
                 handler(.success(result))
             } catch {

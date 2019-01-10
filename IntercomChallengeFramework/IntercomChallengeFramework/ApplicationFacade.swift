@@ -17,11 +17,6 @@ public struct ApplicationFacade {
         downloader.download(from: configuration.downloadURL, responseType: Customer.self) { result in
             switch result {
             case .success(let customers):
-                guard let customers = customers else {
-                    callback(.error(nil))
-                    return
-                }
-                
                 let validCustomers = distanceValidator.filter(points: customers,
                                                               within: configuration.allowedRadius,
                                                               given: configuration.location)
