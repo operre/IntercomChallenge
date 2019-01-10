@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7819DD4D21E76E1E003F77E2 /* IntercomChallengeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7819DD4321E76E1D003F77E2 /* IntercomChallengeFramework.framework */; };
-		7819DD5221E76E1E003F77E2 /* IntercomChallengeFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD5121E76E1E003F77E2 /* IntercomChallengeFrameworkTests.swift */; };
 		7819DD5421E76E1E003F77E2 /* IntercomChallengeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 7819DD4621E76E1D003F77E2 /* IntercomChallengeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7819DD6421E77340003F77E2 /* ReadError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD6321E77340003F77E2 /* ReadError.swift */; };
 		7819DD6621E77399003F77E2 /* FileReaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD6521E77399003F77E2 /* FileReaderService.swift */; };
@@ -52,7 +51,6 @@
 		7819DD4621E76E1D003F77E2 /* IntercomChallengeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntercomChallengeFramework.h; sourceTree = "<group>"; };
 		7819DD4721E76E1D003F77E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7819DD4C21E76E1E003F77E2 /* IntercomChallengeFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntercomChallengeFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7819DD5121E76E1E003F77E2 /* IntercomChallengeFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercomChallengeFrameworkTests.swift; sourceTree = "<group>"; };
 		7819DD5321E76E1E003F77E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7819DD6321E77340003F77E2 /* ReadError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadError.swift; sourceTree = "<group>"; };
 		7819DD6521E77399003F77E2 /* FileReaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReaderService.swift; sourceTree = "<group>"; };
@@ -137,7 +135,6 @@
 			children = (
 				7819DD9321E7C74C003F77E2 /* DistanceCalculation */,
 				7819DD8521E7AA21003F77E2 /* Core */,
-				7819DD5121E76E1E003F77E2 /* IntercomChallengeFrameworkTests.swift */,
 				7819DD5321E76E1E003F77E2 /* Info.plist */,
 			);
 			path = IntercomChallengeFrameworkTests;
@@ -401,7 +398,6 @@
 				7819DD9C21E7DC33003F77E2 /* AnyLocalizableEntity.swift in Sources */,
 				7819DD9721E7CE49003F77E2 /* DistanceValidatorTests.swift in Sources */,
 				7819DD8A21E7AA80003F77E2 /* FileReaderTests.swift in Sources */,
-				7819DD5221E76E1E003F77E2 /* IntercomChallengeFrameworkTests.swift in Sources */,
 				7819DDA621E7EE2D003F77E2 /* URLSessionMock.swift in Sources */,
 				7819DDA421E7EDD4003F77E2 /* FileReaderServiceMock.swift in Sources */,
 				7819DD9F21E7E13C003F77E2 /* FileDownloaderTests.swift in Sources */,
