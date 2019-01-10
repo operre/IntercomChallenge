@@ -14,6 +14,7 @@
 		7819DD6621E77399003F77E2 /* FileReaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD6521E77399003F77E2 /* FileReaderService.swift */; };
 		7819DD6921E77793003F77E2 /* ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD6821E77793003F77E2 /* ParseError.swift */; };
 		7819DD6B21E77969003F77E2 /* FileJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD6A21E77969003F77E2 /* FileJSONParser.swift */; };
+		7819DD6E21E77F57003F77E2 /* DownloadError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD6D21E77F57003F77E2 /* DownloadError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		7819DD6521E77399003F77E2 /* FileReaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReaderService.swift; sourceTree = "<group>"; };
 		7819DD6821E77793003F77E2 /* ParseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseError.swift; sourceTree = "<group>"; };
 		7819DD6A21E77969003F77E2 /* FileJSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileJSONParser.swift; sourceTree = "<group>"; };
+		7819DD6D21E77F57003F77E2 /* DownloadError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		7819DD5F21E77256003F77E2 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				7819DD6C21E77F1A003F77E2 /* FileDownloader */,
 				7819DD6721E77743003F77E2 /* FileParser */,
 				7819DD6221E77327003F77E2 /* FileReader */,
 			);
@@ -120,6 +123,14 @@
 				7819DD6821E77793003F77E2 /* ParseError.swift */,
 			);
 			path = FileParser;
+			sourceTree = "<group>";
+		};
+		7819DD6C21E77F1A003F77E2 /* FileDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				7819DD6D21E77F57003F77E2 /* DownloadError.swift */,
+			);
+			path = FileDownloader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			files = (
 				7819DD6621E77399003F77E2 /* FileReaderService.swift in Sources */,
 				7819DD6421E77340003F77E2 /* ReadError.swift in Sources */,
+				7819DD6E21E77F57003F77E2 /* DownloadError.swift in Sources */,
 				7819DD6B21E77969003F77E2 /* FileJSONParser.swift in Sources */,
 				7819DD6921E77793003F77E2 /* ParseError.swift in Sources */,
 			);
