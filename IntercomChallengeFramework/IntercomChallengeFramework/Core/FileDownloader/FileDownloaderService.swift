@@ -17,9 +17,9 @@ struct FileDownloaderService: FileDownloaderServiceProtocol {
     private let parser: FileJSONParserProtocol
     private let session: URLSession
     
-    init(reader: FileReaderServiceProtocol,
-         parser: FileJSONParserProtocol,
-         session: URLSession = URLSession.shared) {
+    init(with reader: FileReaderServiceProtocol,
+         _ parser: FileJSONParserProtocol,
+         _ session: URLSession = URLSession.shared) {
         self.parser = parser
         self.reader = reader
         self.session = session

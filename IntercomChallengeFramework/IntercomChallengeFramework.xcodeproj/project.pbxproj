@@ -22,6 +22,7 @@
 		7819DD7A21E790CA003F77E2 /* DistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD7921E790CA003F77E2 /* DistanceCalculator.swift */; };
 		7819DD7C21E79140003F77E2 /* DistanceValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD7B21E79140003F77E2 /* DistanceValidator.swift */; };
 		7819DD7E21E79178003F77E2 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD7D21E79178003F77E2 /* Localizable.swift */; };
+		7819DD8021E79573003F77E2 /* ApplicationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD7F21E79573003F77E2 /* ApplicationBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		7819DD7921E790CA003F77E2 /* DistanceCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceCalculator.swift; sourceTree = "<group>"; };
 		7819DD7B21E79140003F77E2 /* DistanceValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceValidator.swift; sourceTree = "<group>"; };
 		7819DD7D21E79178003F77E2 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		7819DD7F21E79573003F77E2 /* ApplicationBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		7819DD4521E76E1D003F77E2 /* IntercomChallengeFramework */ = {
 			isa = PBXGroup;
 			children = (
+				7819DD7F21E79573003F77E2 /* ApplicationBuilder.swift */,
 				7819DD7821E78A00003F77E2 /* DistanceCalculation */,
 				7819DD7321E78717003F77E2 /* Entity */,
 				7819DD5F21E77256003F77E2 /* Core */,
@@ -283,6 +286,7 @@
 				7819DD7C21E79140003F77E2 /* DistanceValidator.swift in Sources */,
 				7819DD6621E77399003F77E2 /* FileReaderService.swift in Sources */,
 				7819DD6421E77340003F77E2 /* ReadError.swift in Sources */,
+				7819DD8021E79573003F77E2 /* ApplicationBuilder.swift in Sources */,
 				7819DD7521E788BE003F77E2 /* Location.swift in Sources */,
 				7819DD7021E78007003F77E2 /* FileDownloaderService.swift in Sources */,
 				7819DD6E21E77F57003F77E2 /* DownloadError.swift in Sources */,

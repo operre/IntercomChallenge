@@ -15,7 +15,7 @@ protocol DistanceValidatorProtocol {
 struct DistanceValidator: DistanceValidatorProtocol {
     private let distanceCalculator: DistanceCalculatorProtocol
     
-    init(distanceCalculator: DistanceCalculatorProtocol) {
+    init(using distanceCalculator: DistanceCalculatorProtocol) {
         self.distanceCalculator = distanceCalculator
     }
     
