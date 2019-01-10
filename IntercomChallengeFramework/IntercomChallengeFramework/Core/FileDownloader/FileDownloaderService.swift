@@ -51,8 +51,6 @@ struct FileDownloaderService: FileDownloaderServiceProtocol {
                     return
                 }
                 
-                // TODO: Should check empty file?
-                
                 handler(.success(result))
             } catch {
                 handler(.error(error))
