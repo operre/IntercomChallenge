@@ -121,7 +121,7 @@ class FileReaderTests: XCTestCase {
             XCTFail()
         }
             
-            //Then
+        //Then
         catch {
             guard let readError = error as? ReadError else {
                 XCTFail()
