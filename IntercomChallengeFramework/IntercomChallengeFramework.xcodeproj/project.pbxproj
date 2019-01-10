@@ -12,6 +12,7 @@
 		7819DD5421E76E1E003F77E2 /* IntercomChallengeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 7819DD4621E76E1D003F77E2 /* IntercomChallengeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7819DD6421E77340003F77E2 /* ReadError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD6321E77340003F77E2 /* ReadError.swift */; };
 		7819DD6621E77399003F77E2 /* FileReaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD6521E77399003F77E2 /* FileReaderService.swift */; };
+		7819DD6921E77793003F77E2 /* ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD6821E77793003F77E2 /* ParseError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		7819DD5321E76E1E003F77E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7819DD6321E77340003F77E2 /* ReadError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadError.swift; sourceTree = "<group>"; };
 		7819DD6521E77399003F77E2 /* FileReaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReaderService.swift; sourceTree = "<group>"; };
+		7819DD6821E77793003F77E2 /* ParseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		7819DD5F21E77256003F77E2 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				7819DD6721E77743003F77E2 /* FileParser */,
 				7819DD6221E77327003F77E2 /* FileReader */,
 			);
 			path = Core;
@@ -106,6 +109,14 @@
 				7819DD6321E77340003F77E2 /* ReadError.swift */,
 			);
 			path = FileReader;
+			sourceTree = "<group>";
+		};
+		7819DD6721E77743003F77E2 /* FileParser */ = {
+			isa = PBXGroup;
+			children = (
+				7819DD6821E77793003F77E2 /* ParseError.swift */,
+			);
+			path = FileParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +230,7 @@
 			files = (
 				7819DD6621E77399003F77E2 /* FileReaderService.swift in Sources */,
 				7819DD6421E77340003F77E2 /* ReadError.swift in Sources */,
+				7819DD6921E77793003F77E2 /* ParseError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
