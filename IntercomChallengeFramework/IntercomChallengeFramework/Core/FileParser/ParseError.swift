@@ -10,5 +10,4 @@ import Foundation
 
 enum ParseError: Error {
     case unableToSerialize
-    case emptyFile
 }

@@ -31,6 +31,10 @@
 		7819DD9721E7CE49003F77E2 /* DistanceValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD9621E7CE49003F77E2 /* DistanceValidatorTests.swift */; };
 		7819DD9A21E7DBDF003F77E2 /* DistanceCalculatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD9921E7DBDF003F77E2 /* DistanceCalculatorMock.swift */; };
 		7819DD9C21E7DC33003F77E2 /* AnyLocalizableEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD9B21E7DC33003F77E2 /* AnyLocalizableEntity.swift */; };
+		7819DD9F21E7E13C003F77E2 /* FileDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD9E21E7E13C003F77E2 /* FileDownloaderTests.swift */; };
+		7819DDA221E7EDBB003F77E2 /* FileJSONParserMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DDA121E7EDBB003F77E2 /* FileJSONParserMock.swift */; };
+		7819DDA421E7EDD4003F77E2 /* FileReaderServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DDA321E7EDD4003F77E2 /* FileReaderServiceMock.swift */; };
+		7819DDA621E7EE2D003F77E2 /* URLSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DDA521E7EE2D003F77E2 /* URLSessionMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,10 @@
 		7819DD9621E7CE49003F77E2 /* DistanceValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceValidatorTests.swift; sourceTree = "<group>"; };
 		7819DD9921E7DBDF003F77E2 /* DistanceCalculatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceCalculatorMock.swift; sourceTree = "<group>"; };
 		7819DD9B21E7DC33003F77E2 /* AnyLocalizableEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLocalizableEntity.swift; sourceTree = "<group>"; };
+		7819DD9E21E7E13C003F77E2 /* FileDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDownloaderTests.swift; sourceTree = "<group>"; };
+		7819DDA121E7EDBB003F77E2 /* FileJSONParserMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileJSONParserMock.swift; sourceTree = "<group>"; };
+		7819DDA321E7EDD4003F77E2 /* FileReaderServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReaderServiceMock.swift; sourceTree = "<group>"; };
+		7819DDA521E7EE2D003F77E2 /* URLSessionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +204,7 @@
 		7819DD8521E7AA21003F77E2 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				7819DD9D21E7E103003F77E2 /* FileDownloader */,
 				7819DD8621E7AA2A003F77E2 /* FileReader */,
 			);
 			path = Core;
@@ -233,6 +242,25 @@
 			children = (
 				7819DD9921E7DBDF003F77E2 /* DistanceCalculatorMock.swift */,
 				7819DD9B21E7DC33003F77E2 /* AnyLocalizableEntity.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		7819DD9D21E7E103003F77E2 /* FileDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				7819DDA021E7EDA4003F77E2 /* Mocks */,
+				7819DD9E21E7E13C003F77E2 /* FileDownloaderTests.swift */,
+			);
+			path = FileDownloader;
+			sourceTree = "<group>";
+		};
+		7819DDA021E7EDA4003F77E2 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				7819DDA121E7EDBB003F77E2 /* FileJSONParserMock.swift */,
+				7819DDA321E7EDD4003F77E2 /* FileReaderServiceMock.swift */,
+				7819DDA521E7EE2D003F77E2 /* URLSessionMock.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -374,7 +402,11 @@
 				7819DD9721E7CE49003F77E2 /* DistanceValidatorTests.swift in Sources */,
 				7819DD8A21E7AA80003F77E2 /* FileReaderTests.swift in Sources */,
 				7819DD5221E76E1E003F77E2 /* IntercomChallengeFrameworkTests.swift in Sources */,
+				7819DDA621E7EE2D003F77E2 /* URLSessionMock.swift in Sources */,
+				7819DDA421E7EDD4003F77E2 /* FileReaderServiceMock.swift in Sources */,
+				7819DD9F21E7E13C003F77E2 /* FileDownloaderTests.swift in Sources */,
 				7819DD9221E7BF75003F77E2 /* FileManagerMock.swift in Sources */,
+				7819DDA221E7EDBB003F77E2 /* FileJSONParserMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
