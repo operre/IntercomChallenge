@@ -39,3 +39,15 @@ extension Customer: Decodable {
         case longitude
     }
 }
+
+// MARK: - Comparable
+
+extension Customer: Comparable {
+    static func == (lhs: Customer, rhs: Customer) -> Bool {
+        return lhs.userID == rhs.userID
+    }
+    
+    static func < (lhs: Customer, rhs: Customer) -> Bool {
+        return lhs.userID < rhs.userID
+    }
+}
