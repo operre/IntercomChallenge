@@ -19,6 +19,7 @@
 		7819DD7221E7809C003F77E2 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD7121E7809C003F77E2 /* Result.swift */; };
 		7819DD7521E788BE003F77E2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD7421E788BE003F77E2 /* Location.swift */; };
 		7819DD7721E78928003F77E2 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD7621E78928003F77E2 /* Customer.swift */; };
+		7819DD7A21E790CA003F77E2 /* DistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7819DD7921E790CA003F77E2 /* DistanceCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7819DD7121E7809C003F77E2 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		7819DD7421E788BE003F77E2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		7819DD7621E78928003F77E2 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		7819DD7921E790CA003F77E2 /* DistanceCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		7819DD4521E76E1D003F77E2 /* IntercomChallengeFramework */ = {
 			isa = PBXGroup;
 			children = (
+				7819DD7821E78A00003F77E2 /* DistanceCalculation */,
 				7819DD7321E78717003F77E2 /* Entity */,
 				7819DD5F21E77256003F77E2 /* Core */,
 				7819DD4621E76E1D003F77E2 /* IntercomChallengeFramework.h */,
@@ -151,6 +154,14 @@
 				7819DD7421E788BE003F77E2 /* Location.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		7819DD7821E78A00003F77E2 /* DistanceCalculation */ = {
+			isa = PBXGroup;
+			children = (
+				7819DD7921E790CA003F77E2 /* DistanceCalculator.swift */,
+			);
+			path = DistanceCalculation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7819DD7A21E790CA003F77E2 /* DistanceCalculator.swift in Sources */,
 				7819DD6621E77399003F77E2 /* FileReaderService.swift in Sources */,
 				7819DD6421E77340003F77E2 /* ReadError.swift in Sources */,
 				7819DD7521E788BE003F77E2 /* Location.swift in Sources */,
